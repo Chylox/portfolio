@@ -137,7 +137,7 @@ table {
 body {
    /* Img Source: https://unsplash.com/photos/Xja44qYL8VI */
   /* background: url(../img/kevin-h-17kzZ1hndwo-unsplash.jpg) no-repeat center center fixed; */
-  background: url(../img/mushegh-hakobyan-DOOSi8EQuwQ-unsplash.jpg) no-repeat center center fixed;
+  background: url(../img/philipp-knape-hk2YReqM5X8-unsplash.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -177,7 +177,7 @@ span {
 /* ------------------------- MAIN ------------------------- */
 main {
   position: absolute;
-  top: 15%;
+  top: 30%;
   width: 100vw;
 }
 
@@ -198,11 +198,14 @@ main {
   background-repeat:no-repeat;
 }
 
-#aboutMe, #contact {
+#aboutMe {
   margin: auto;
   margin-top: 30%;
   max-width: 70vw;
   color: white;
+  background-color: rgba(109, 146, 161, 0.7);
+  padding: 30px;
+  border-radius: 15px;
 }
 
 #aboutMe h2 {
@@ -212,6 +215,17 @@ main {
 #aboutTextSection {
   display: grid;
   grid-template-columns: 3fr 5fr;
+}
+
+#contact {
+  margin: auto;
+  margin-top: 20%;
+  max-width: 70vw;
+  color: white;
+  background-color: rgba(109, 146, 161, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 10%;
 }
 /* ------------------------- FOOTER ------------------------- */
 footer {

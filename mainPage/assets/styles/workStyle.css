@@ -1,0 +1,199 @@
+/* ------------------------- CSS RESET ------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ############################################################## */
+/* HTML - BUILDUP-STYLE */
+
+/* ------------------------- ALL / HTML / BODY ------------------------- */
+body {
+    /* Img Source: https://unsplash.com/photos/Xja44qYL8VI */
+   background: url(../img/kevin-h-17kzZ1hndwo-unsplash.jpg) no-repeat center center fixed;
+   /* background: url(../img/philipp-knape-hk2YReqM5X8-unsplash.jpg) no-repeat center center fixed; */
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+ 
+ div,
+ nav,
+ span {
+   /* border: solid white 1px; */
+   padding: 5px;
+ }
+ 
+ /* ------------------------- HEADER AND NAVBAR ------------------------- */
+ 
+ .navbar {
+   display: flex;
+   justify-content: flex-end;
+   height: 5vh;
+   min-height: 50px;
+   align-items: center;
+   background-color: rgba(109, 146, 161, 0.7) !important;
+   width: 100%;
+ }
+
+ #navBar p {
+    margin-right: 15px;
+ }
+
+
+ /* ------------------------- MAIN ------------------------- */
+main {
+    margin: 0 auto;
+    max-width: 70%;
+    margin-top: 20vh;
+}
+
+.card {
+    background-color: rgba(109, 146, 161, 0.3) !important;
+    margin: 15px;
+}
+
+.card-body h5 {
+    font-size: 1.4em;
+}
+
+.card-body p {
+    font-size: 1.1em;
+}
+
+.card-body h5, .card-body p {
+    text-align: center;
+    color: white;
+}
+
+ /* ------------------------- FOOTER ------------------------- */
+
+

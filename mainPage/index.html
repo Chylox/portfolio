@@ -6,17 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChrisBo - Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 
 <body>
     <!-- Heading + Greeting + Nav -->
     <header>
-        <nav id="navBar">
-            <!-- <a href="#"><span class="navItems">Home</span></a>
-            <a href="#"><span class="navItems">About</span></a>
-            <a href="#"><span class="navItems">Contact</span></a>
-            <a href="#"><span class="navItems">GitHub</span></a> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -27,9 +44,8 @@
             <ul id="hexGrid">
                 <li class="hex">
                     <div class="hexIn">
-                        <a class="hexLink" href="sub-pages/works.html">
-                            <div class='img'
-                                style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'>
+                        <a class="hexLink" href="#" onclick="delayUrlLoad('sub-pages/works.html', 300);return false;">
+                            <div class='img onClickChange' id="workImg">
                             </div>
                             <h1 id="demo1">Works</h1>
                             <p id="demo2">Some Previous Example Projects</p>
@@ -39,7 +55,7 @@
 
                 <li class="hex">
                     <div class="hexIn">
-                        <a class="hexLink" href="#aboutMe">
+                        <a class="hexLink" href="#" onclick="delayUrlLoad('#aboutMe', 150);return false;">
                             <div class='img' id="aboutImg">
                             </div>
                             <h1 id="demo1">About</h1>
@@ -49,7 +65,7 @@
                 </li>
                 <li class="hex">
                     <div class="hexIn">
-                        <a class="hexLink" href="#contact">
+                        <a class="hexLink" href="#" onclick="delayUrlLoad('#contact', 150);return false;">
                             <div class='img' id="contactImg">
                             </div>
                             <h1 id="demo1">Contact</h1>
@@ -59,7 +75,7 @@
                 </li>
                 <li class="hex">
                     <div class="hexIn">
-                        <a class="hexLink" href="https://github.com/Chylox">
+                        <a class="hexLink" href="#" onclick="delayUrlLoad('https:\/\/github.com/Chylox', 300);return false;">
                             <div class='img' id="githubImg">
                             </div>
                             <h1 id="demo1">GitHub</h1>
@@ -72,12 +88,12 @@
 
         <!-- ABOUT ME----------------------------- -->
         <div id="aboutMe">
-            <div>
+            <div id="aboutText">
                 <h2>About Me</h2>
                 <hr>
                 <div id="aboutTextSection">
                     <p>Hi I am Christian,<br> looking for a career change!</p>
-                    <p>My name is Justin Baker, and I decided to change my occupation after five years of working in
+                    <p id="aboutMeTextContent">My name is Justin Baker, and I decided to change my occupation after five years of working in
                         sales. I still like communicating with people and work in a team. I want to alter the accents a
                         bit and switch to product management. As a sales agent, I learned what makes a product valuable
                         and easy to sell besides promotion and persuasiveness. I have been working “on the other side”
@@ -91,15 +107,20 @@
         </div>
 
         <div id="contact">
-            <h2>Contact</h2>
-            <hr>
-            <div>
-                <ul>
-                    <li>E-Mail</li>
-                    <li>Telephone</li>
-                    <li>LinkedIn</li>
-                    <li>GitHub</li>
-                </ul>
+            <div id="contactText">
+                <h2>Contact</h2>
+                <hr>
+                <div>
+                    <ul>
+                        <li>E-Mail</li>
+                        <li>Telephone</li>
+                        <li>LinkedIn</li>
+                        <li>GitHub</li>
+                        <li>Discord</li>
+                        <li>Zoom</li>
+                        <li>Skype</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </main>

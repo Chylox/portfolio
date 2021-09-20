@@ -92,6 +92,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  scroll-behavior: smooth;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -136,8 +137,8 @@ table {
 /* ------------------------- ALL / HTML / BODY ------------------------- */
 body {
    /* Img Source: https://unsplash.com/photos/Xja44qYL8VI */
-  /* background: url(../img/kevin-h-17kzZ1hndwo-unsplash.jpg) no-repeat center center fixed; */
-  background: url(../img/philipp-knape-hk2YReqM5X8-unsplash.jpg) no-repeat center center fixed;
+  background: url(../img/kevin-h-17kzZ1hndwo-unsplash.jpg) no-repeat center center fixed;
+  /* background: url(../img/philipp-knape-hk2YReqM5X8-unsplash.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -153,12 +154,14 @@ span {
 
 /* ------------------------- HEADER AND NAVBAR ------------------------- */
 
-#navBar {
+.navbar {
   display: flex;
   justify-content: flex-end;
   height: 5vh;
+  min-height: 50px;
   align-items: center;
-  background-color: rgba(109, 146, 161, 0.7);
+  background-color: rgba(109, 146, 161, 0.7) !important;
+  width: 100%;
 }
 
 /* #navBar a {
@@ -178,7 +181,16 @@ span {
 main {
   position: absolute;
   top: 30%;
-  width: 100vw;
+  min-width: 100%;
+}
+
+#workImg {
+  background-image: url(../img/school-work-851328_1920.jpg);
+  background-size: cover;
+}
+
+.workClickClass {
+  background-image: url(../img/GitHub_Logo.png);
 }
 
 #aboutImg {
@@ -199,17 +211,25 @@ main {
 }
 
 #aboutMe {
-  margin: auto;
-  margin-top: 30%;
-  max-width: 70vw;
+  margin: 0 auto;
+  /* margin-top: 30%; */
+  max-width: 100vw;
   color: white;
-  background-color: rgba(109, 146, 161, 0.7);
+  background-color: rgba(109, 146, 161, 0.3);
   padding: 30px;
-  border-radius: 15px;
 }
 
-#aboutMe h2 {
+#aboutText {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+#aboutMe h2, #contact h2 {
   font-size: 2em;
+}
+
+#aboutMe p, #contact li {
+  line-height: 150%;
 }
 
 #aboutTextSection {
@@ -217,34 +237,42 @@ main {
   grid-template-columns: 3fr 5fr;
 }
 
+#aboutMeTextContent {
+  padding-left: 30px;
+}
+
 #contact {
-  margin: auto;
-  margin-top: 20%;
-  max-width: 70vw;
+  margin: 0 auto;
+  margin-top: 25vh;
+  max-width: 100vw;
   color: white;
-  background-color: rgba(109, 146, 161, 0.7);
+  background-color: rgba(109, 146, 161, 0.3);
+}
+
+#contactText {
+  max-width: 70%;
+  margin: 0 auto;
   padding: 30px;
-  border-radius: 15px;
-  margin-bottom: 10%;
 }
 /* ------------------------- FOOTER ------------------------- */
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-}
+
+
 
 
 
 
 
 /* ------------------------- Hex Cards ------------------------- */
+.grid {
+  height: 70vh;
+}
+
 #hexGrid {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: sans-serif;
   list-style-type: none;
 }

@@ -15,14 +15,14 @@
 <body>
     <!-- Heading + Greeting + Nav -->
     <header>
-        <ul class="nav justify-content-end">
+        <ul class="nav justify-content-end container">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.github.com/Chylox" target="_blank">GitHub</a>
+                <a class="nav-link" href="https://www.github.com/Chylox" target="_blank">GitHub</a>
             </li>
-          </ul>
+        </ul>
     </header>
 
     <!-- Links to Projects + Github -->
@@ -43,7 +43,7 @@
 
                 <li class="hex">
                     <div class="hexIn">
-                        <a class="hexLink" href="#" onclick="delayUrlLoad('#aboutMe', 150);return false;">
+                        <a class="hexLink" href="#" onclick="delayUrlLoad('#aboutAnchor', 150);return false;">
                             <div class='img' id="aboutImg">
                             </div>
                             <h1 id="demo1">About</h1>
@@ -63,7 +63,8 @@
                 </li>
                 <li class="hex">
                     <div class="hexIn">
-                        <a class="hexLink" href="#" onclick="delayUrlLoad('https:\/\/github.com/Chylox', 300);return false;">
+                        <a class="hexLink" href="#"
+                            onclick="delayUrlLoad('https:\/\/github.com/Chylox', 300);return false;">
                             <div class='img' id="githubImg">
                             </div>
                             <h1 id="demo1">GitHub</h1>
@@ -75,24 +76,46 @@
         </div>
 
         <!-- ABOUT ME----------------------------- -->
-        <div id="aboutMe">
-            <div id="aboutText">
-                <h2>About Me</h2>
+        <div class="card" id="aboutMe">
+            <div class="container" id="aboutAnchor">
+                <h2>About Me:</h2>
                 <hr>
-                <div id="aboutTextSection">
-                    <p>Hi I am Christian,<br> looking for a career change!</p>
-                    <p id="aboutMeTextContent">My name is Justin Baker, and I decided to change my occupation after five years of working in
-                        sales. I still like communicating with people and work in a team. I want to alter the accents a
-                        bit and switch to product management. As a sales agent, I learned what makes a product valuable
-                        and easy to sell besides promotion and persuasiveness. I have been working “on the other side”
-                        long enough to realize how important marketing and development components are. I have become
-                        interested in these fields recently. I am certain that joining your team is a benefit for both
-                        sides. My professional expertise in sales can provide valuable insights and a fresh perspective
-                        on product development. Personally, I can acquire new knowledge and skills in product launch and
-                        management. I am ready for long-time cooperation.</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="bg-transparent">
+                            <div>
+                                <h5 id="aboutMeHeading" class="card-title">Hi I am Christian,<br> looking for a career change!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="bg-transparent">
+                            <div>
+                                <p class="card-text">My name is Justin Baker, and I decided to change my occupation after five years of working in
+                                    sales. I still like communicating with people and work in a team. I want to alter the accents a
+                                    bit and switch to product management. As a sales agent, I learned what makes a product valuable
+                                    and easy to sell besides promotion and persuasiveness. I have been working “on the other side”
+                                    long enough to realize how important marketing and development components are. I have become
+                                    interested in these fields recently. I am certain that joining your team is a benefit for both
+                                    sides. My professional expertise in sales can provide valuable insights and a fresh perspective
+                                    on product development. Personally, I can acquire new knowledge and skills in product launch and
+                                    management. I am ready for long-time cooperation.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+
+
+            <!-- <div class="card-body container">
+              <h5 class="card-title">Hi I am Christian, <br> looking for a career change!</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div> -->
         </div>
+
+
 
         <div id="contact">
             <div id="contactText">

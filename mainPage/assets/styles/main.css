@@ -154,28 +154,25 @@ span {
 
 /* ------------------------- HEADER AND NAVBAR ------------------------- */
 
-.navbar {
+header {
   display: flex;
   justify-content: flex-end;
-  height: 5vh;
+  height: 10vh;
   min-height: 50px;
   align-items: center;
   background-color: rgba(109, 146, 161, 0.7) !important;
-  width: 100%;
 }
 
-/* #navBar a {
+header ul {
+  margin-right: 3vw;
+}
+
+header a {
   font-size: 1.3em;
-  color: white;
+  color: white !important;
   text-decoration: none;
   padding: 0 2vw 0 0;
 }
-
-.navItems:hover {
-  font-size: 1.4em;
-  font-weight: bold;
-  padding: 0 1vw 0 1vw;
-} */
 
 /* ------------------------- MAIN ------------------------- */
 main {
@@ -216,7 +213,7 @@ main {
   max-width: 100vw;
   color: white;
   background-color: rgba(109, 146, 161, 0.3);
-  padding: 30px;
+  padding: 200px;
 }
 
 #aboutText {
@@ -243,7 +240,7 @@ main {
 
 #contact {
   margin: 0 auto;
-  margin-top: 25vh;
+  margin-top: 40vh;
   max-width: 100vw;
   color: white;
   background-color: rgba(109, 146, 161, 0.3);
@@ -252,7 +249,7 @@ main {
 #contactText {
   max-width: 70%;
   margin: 0 auto;
-  padding: 30px;
+  padding: 10%;
 }
 /* ------------------------- FOOTER ------------------------- */
 
@@ -425,6 +422,7 @@ main {
 .hexLink:focus p {
   opacity: 1;
   transition: 0.8s;
+  color: white;
 }
 
 .hexIn:hover .img:before,

@@ -154,19 +154,25 @@ body {
  
  /* ------------------------- HEADER AND NAVBAR ------------------------- */
  
- .navbar {
-   display: flex;
-   justify-content: flex-end;
-   height: 5vh;
-   min-height: 50px;
-   align-items: center;
-   background-color: rgba(109, 146, 161, 0.7) !important;
-   width: 100%;
- }
+ header {
+  display: flex;
+  justify-content: flex-end;
+  height: 10vh;
+  min-height: 50px;
+  align-items: center;
+  background-color: rgba(109, 146, 161, 0.7) !important;
+}
 
- #navBar p {
-    margin-right: 15px;
- }
+header ul {
+  margin-right: 3vw;
+}
+
+header a {
+  font-size: 1.3em;
+  color: white !important;
+  text-decoration: none;
+  padding: 0 2vw 0 0;
+}
 
 
  /* ------------------------- MAIN ------------------------- */
@@ -179,6 +185,14 @@ main {
 .card {
     background-color: rgba(109, 146, 161, 0.3) !important;
     margin: 15px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card a:hover {
+  font-size:1.1em;
 }
 
 .card-body h5 {

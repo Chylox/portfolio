@@ -130,6 +130,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+a {
+  text-decoration: none;
+}
 
 /* ############################################################## */
 /* HTML - BUILDUP-STYLE */
@@ -150,6 +153,10 @@ nav,
 span {
   /* border: solid white 1px; */
   padding: 5px;
+}
+
+a:hover {
+  color: lightblue !important;
 }
 
 /* ------------------------- HEADER AND NAVBAR ------------------------- */
@@ -225,27 +232,22 @@ main {
   line-height: 150%;
 }
 
-#aboutTextSection {
-  display: grid;
-  grid-template-columns: 3fr 5fr;
-}
-
-#aboutMeTextContent {
-  padding-left: 30px;
-}
-
 #contact {
   margin: 0 auto;
   margin-top: 40vh;
+  padding-top:200px;
+  padding-bottom: 200px;
   max-width: 100vw;
   color: white;
   background-color: rgba(109, 146, 161, 0.3);
 }
 
-#contactText {
-  max-width: 70%;
-  margin: 0 auto;
-  padding: 10%;
+#contactLinks a {
+  color: white;
+}
+
+#contact li {
+  margin-bottom: 15px;
 }
 /* ------------------------- FOOTER ------------------------- */
 

@@ -167,11 +167,12 @@ header {
   height: 10vh;
   min-height: 50px;
   align-items: center;
-  background-color: rgba(109, 146, 161, 0.7) !important;
+  /* background-color: rgba(109, 146, 161, 0.7) !important; */
 }
 
 header a {
   font-size: 1.3em;
+  font-weight: bold;
   color: white !important;
   text-decoration: none;
   padding: 0 2vw 0 0;
@@ -194,7 +195,7 @@ main {
 }
 
 #aboutImg {
-  background-image: url(../img/CV-Bodenwinkler.JPG);
+  background-image: url(../img/CV-chrisBo.JPG);
   background-size: cover;
 }
 
@@ -261,6 +262,7 @@ main {
 .grid {
   height: 70vh;
 }
+
 
 #hexGrid {
   display: flex;

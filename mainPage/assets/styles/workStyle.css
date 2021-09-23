@@ -160,14 +160,19 @@ body {
   height: 10vh;
   min-height: 50px;
   align-items: center;
-  background-color: rgba(109, 146, 161, 0.7) !important;
+  /* background-color: rgba(109, 146, 161, 0.7) !important; */
 }
 
 header a {
   font-size: 1.3em;
+  font-weight: bold;
   color: white !important;
   text-decoration: none;
   padding: 0 2vw 0 0;
+}
+
+header a:hover {
+  color: lightblue !important;
 }
 
 
@@ -180,23 +185,26 @@ main {
 
 .card {
     background-color: rgba(109, 146, 161, 0.3) !important;
-    margin: 15px;
 }
 
-.card a {
+.card-body a {
   text-decoration: none;
 }
 
-.card a:hover {
-  font-size:1.1em;
+.card-body {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform .5s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.3);
 }
 
 .card-body h5 {
     font-size: 1.4em;
-}
-
-.card-body p {
-    font-size: 1.1em;
 }
 
 .card-body h5, .card-body p {

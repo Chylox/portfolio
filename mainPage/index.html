@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChrisBo - Portfolio</title>
+    <title>Portfolio</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -15,12 +15,23 @@
 <body>
     <!-- Heading + Greeting + Nav -->
     <header>
-        <ul class="nav justify-content-end container">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <ul class="nav justify-content-end container bg-transparent>
+            <li class=" nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.github.com/Chylox" target="_blank">GitHub</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle bg-transparent" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">GitHub</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.github.com/cBodenwinkler" target="_blank">BootCamp
+                            GitHub</a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="https://www.github.com/Chylox" target="_blank">Personal
+                            GitHub</a></li>
+                </ul>
             </li>
         </ul>
     </header>
@@ -63,7 +74,7 @@
                 </li>
                 <li class="hex">
                     <div class="hexIn">
-                        <a class="hexLink" href="https://www.github.com/Chylox" target="_blank">
+                        <a class="hexLink" href="https://www.github.com/cBodenwinkler" target="_blank">
                             <div class='img' id="githubImg">
                             </div>
                             <h1 id="demo1">GitHub</h1>
@@ -84,8 +95,9 @@
                         <div class="bg-transparent">
                             <div>
                                 <h5 id="aboutMeHeading" class="card-title">
-                                    Ich bin Christian und meine größte Stärke ist meine hohe Motivation, mir Neues anzueignen 
-                                    und in Projekte einzubringen.                                   
+                                    Ich bin Christian und meine größte Stärke ist meine hohe Motivation, mir Neues
+                                    anzueignen
+                                    und in Projekte einzubringen.
                                 </h5>
                             </div>
                         </div>
@@ -95,16 +107,16 @@
                             <div>
                                 <p class="card-text">
                                     Geboren und aufgewachsen in der Nähe von Linz mit einer großen Leidenschaft für
-                                    Technik, Sport und einer Reihe weiterer Dinge. 
+                                    Technik, Sport und einer Reihe weiterer Dinge.
                                 </p>
                                 <p class="card-text">
-                                    In den letzten Jahren 
-                                    konnte ich viel über den Aufbau, die Wartung und die Instandhaltung von Hardware und 
-                                    Systemsoftware (Linux, Windows) lernen. Auch im Bereich Kundensupport habe ich 
+                                    In den letzten Jahren
+                                    konnte ich viel über den Aufbau, die Wartung und die Instandhaltung von Hardware und
+                                    Systemsoftware (Linux, Windows) lernen. Auch im Bereich Kundensupport habe ich
                                     erfolgreich Erfahrung gesammelt.
                                 </p>
                                 <p class="card-text">
-                                    Seit nunmehr einem Jahr strebe ich intensiv einen 'career change' 
+                                    Seit nunmehr einem Jahr strebe ich intensiv einen 'career change'
                                     in Richtung Web- und Software-Development an.
                                 </p>
                             </div>
@@ -165,7 +177,9 @@
     <!-- Don't know yet -->
     <footer>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
     <script src="assets/script/main.js"></script>
 </body>
 

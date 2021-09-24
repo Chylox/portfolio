@@ -178,6 +178,11 @@ header a {
   padding: 0 2vw 0 0;
 }
 
+.dropdown-menu {
+  background-color: rgba(109, 146, 161, 0.3) !important;
+}
+
+
 /* ------------------------- MAIN ------------------------- */
 main {
   position: absolute;

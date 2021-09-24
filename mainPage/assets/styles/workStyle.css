@@ -175,6 +175,10 @@ header a:hover {
   color: lightblue !important;
 }
 
+.dropdown-menu {
+  background-color: rgba(109, 146, 161, 0.3) !important;
+}
+
 
  /* ------------------------- MAIN ------------------------- */
 main {

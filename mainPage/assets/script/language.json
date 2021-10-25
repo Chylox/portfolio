@@ -1,0 +1,24 @@
+let language = `
+[
+    {
+        "aboutMeHeading": "Ich bin Christian und meine größte Stärke ist meine hohe Motivation, mir Neues
+        anzueignen und in Projekte einzubringen.",
+        "aboutMeOne": "Geboren und aufgewachsen in der Nähe von Linz mit einer großen Leidenschaft für
+        Technik, Sport und einer Reihe weiterer Dinge.",
+        "aboutMeTwo": "In den letzten Jahren
+        konnte ich viel über den Aufbau, die Wartung und die Instandhaltung von Hardware und
+        Systemsoftware (Linux, Windows) lernen. Auch im Bereich Kundensupport habe ich
+        erfolgreich Erfahrung gesammelt.",
+        "aboutMeThree": "Seit nunmehr einem Jahr strebe ich intensiv einen 'career change'
+        in Richtung Web- und Software-Development an.",
+        "contactMeHeading": "Gerne überzeuge ich Sie in einem persönlichen Gespräch. <br>
+        Ich freue mich auf Ihre Kontaktaufnahme."
+    },
+    {
+        "aboutMeHeading": "Hi, my name is Christian. My biggest strength is my motivation and ability to learn new technologies.",
+        "aboutMeOne": "Born and raised in a small village near Linz/Austria, with a great passion for technology and sports.",
+        "aboutMeTwo": "In the last years I was privilegde to learn a lot about building, maintaining and repairing hardware as well as system software (Linux, Windows, Mac). Furthermore I could also gather some experience in customer support.",
+        "aboutMeThree": "For about a year now I am aiming for a career change into Web- and Softwaredevelopment.",
+        "contactMeHeading": "I am looking forward to meet with you for more information."
+    }
+]`;

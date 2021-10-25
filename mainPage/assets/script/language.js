@@ -1,0 +1,1 @@
+let englishData = JSON.parse(language);

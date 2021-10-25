@@ -1,18 +1,11 @@
 let language = `
 [
     {
-        "aboutMeHeading": "Ich bin Christian und meine größte Stärke ist meine hohe Motivation, mir Neues
-        anzueignen und in Projekte einzubringen.",
-        "aboutMeOne": "Geboren und aufgewachsen in der Nähe von Linz mit einer großen Leidenschaft für
-        Technik, Sport und einer Reihe weiterer Dinge.",
-        "aboutMeTwo": "In den letzten Jahren
-        konnte ich viel über den Aufbau, die Wartung und die Instandhaltung von Hardware und
-        Systemsoftware (Linux, Windows) lernen. Auch im Bereich Kundensupport habe ich
-        erfolgreich Erfahrung gesammelt.",
-        "aboutMeThree": "Seit nunmehr einem Jahr strebe ich intensiv einen 'career change'
-        in Richtung Web- und Software-Development an.",
-        "contactMeHeading": "Gerne überzeuge ich Sie in einem persönlichen Gespräch. <br>
-        Ich freue mich auf Ihre Kontaktaufnahme."
+        "aboutMeHeading": "Ich bin Christian und meine größte Stärke ist meine hohe Motivation, mir Neues anzueignen und in Projekte einzubringen.",
+        "aboutMeOne": "Geboren und aufgewachsen in der Nähe von Linz mit einer großen Leidenschaft für Technik, Sport und einer Reihe weiterer Dinge.",
+        "aboutMeTwo": "In den letzten Jahren konnte ich viel über den Aufbau, die Wartung und die Instandhaltung von Hardware und Systemsoftware lernen. Auch im Bereich Kundensupport habe ich erfolgreich Erfahrung gesammelt.",
+        "aboutMeThree": "Seit nunmehr einem Jahr strebe ich intensiv einen 'career change' in Richtung Web- und Software-Development an.",
+        "contactMeHeading": "Gerne überzeuge ich Sie in einem persönlichen Gespräch. <br> Ich freue mich auf Ihre Kontaktaufnahme."
     },
     {
         "aboutMeHeading": "Hi, my name is Christian. My biggest strength is my motivation and ability to learn new technologies.",

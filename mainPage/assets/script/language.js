@@ -13,6 +13,7 @@ const part3 = document.querySelector('.replace3');
 const part4 = document.querySelector('.replace4');
 const part5 = document.querySelector('.replace5');
 
+
 // Functions
 function replaceContent() {
     part1.innerHTML = "";

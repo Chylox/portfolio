@@ -15,9 +15,24 @@
 <body>
     <!-- Heading + Greeting + Nav -->
     <header class="container" id="header">
-        <div>
-            <button id="germanButton">German</button>
-            <button id="englishButton">English</button>
+        <div id="languageChooserDropdown">
+            <!-- <button id="germanButton" class="btn btn-outline-light">German</button>
+            <button id="englishButton" class="btn btn-outline-light">English</button> -->
+
+                <a class="nav-link dropdown-toggle bg-transparent" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Language</a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <button id="germanButton" class="btn btn-outline-light languageButtons">German</button>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li>
+                        <button id="englishButton" class="btn btn-outline-light languageButtons">English</button>
+                    </li>
+                </ul>
+
         </div>
 
         <ul class="nav justify-content-end container bg-transparent>

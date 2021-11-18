@@ -182,6 +182,15 @@ header a {
   background-color: rgba(109, 146, 161, 0.3) !important;
 }
 
+#languageChooserDropdown {
+  text-decoration: none;
+}
+
+.languageButtons {
+  width: 100%;
+  border: none;
+}
+
 
 /* ------------------------- MAIN ------------------------- */
 main {
